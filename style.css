@@ -1,0 +1,124 @@
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.7;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.title {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.box {
+    width: 43rem;
+    height: 40rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+    left: -1rem;
+}
+
+.fa-shopping-cart {
+    font-size: 9rem;
+    color: #343a40;
+}
+
+.added {
+    width: 2.6rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    background: #dc3545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 8.7rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: white;
+    top: -0.5rem;
+    opacity: 0;
+}
+
+.shop-tab {
+    background: #007bff;
+    color: white;
+    padding: 1.8rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+
+.add-remove {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 1rem;
+    margin-top: 2rem;
+}
+
+.remove-item {
+   margin-right: 1rem;
+    font-size: 2.6rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #343a40;
+}
+
+.amount {
+    margin-right: 1rem;
+    font-size: 2rem;
+    width: 55%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.add-item {
+    cursor: pointer;
+    font-size: 2.6rem;
+    background: none;
+    border: none;
+    color: #343a40;
+}
