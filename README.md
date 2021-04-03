@@ -1,2 +1,2 @@
-# practic eapp
+# practice app
 Increment and decrement practice with JS.
